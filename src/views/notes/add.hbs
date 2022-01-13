@@ -1,0 +1,24 @@
+<div class="col-md-4 mx-auto">
+    <div class="card text-white bg-dark">
+    <div class="card-header">
+        <h4>New Note</h4>
+    </div>
+    <div class="card-body">
+        <form action="/notes/add" method="POST">
+        <div class="form-group">
+        <input type="text" name="tittle" class="form-control" placeholder="Tittle" autofocus>
+        </div>
+        <br>
+        <div class="form-group">
+            <textarea name="content" class="form-control" placeholder="Content"></textarea>
+        </div>
+        <br>
+        <div class="form-group">
+            <div class="d-grid gap-2">
+                <button class="btn btn-success" type="submit">Guardar  <i class="fas fa-save"></i></button>
+            </div>
+        </div>
+        </form>
+    </div>
+</div>
+</div>
